@@ -5,7 +5,13 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import images from '@/constants/images';
 
+
+
+
 const Account = () => {
+
+
+
   return (
     <ScrollView contentContainerStyle={{ flexGrow: 1, paddingTop: 20, paddingBottom: 20 }}>
       <View style={styles.container}>

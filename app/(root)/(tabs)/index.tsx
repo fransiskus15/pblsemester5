@@ -25,6 +25,9 @@ const Home = () => {
       case 'Scan QR':
         navigation.navigate('qr'); // Adjust with your actual screen name
         break;
+      case 'Ringkasan':
+        navigation.navigate('PaymentSummary'); // Adjust with your actual screen name
+        break;
       case 'Lainnya':
         navigation.navigate('menu'); // Adjust with your actual screen name
         break;
@@ -56,7 +59,7 @@ const Home = () => {
           Saldo Anda
         </Text>
         <Text className="text-[36px] text-center font-pregular text-[#2C2C63]">
-          Rp 10,000,000
+          Rp 90,000,000
         </Text>
       </View>
 

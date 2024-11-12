@@ -21,6 +21,8 @@ const MenuScreen = () => {
     { id: '7', icon: 'call', label: 'Kontak', color: '#8aadf4' },
     { id: '8', icon: 'help-circle', label: 'Bantuan', color: '#F5A623' },
     { id: '9', icon: 'settings', label: 'Pengaturan', color: '#4A90E2' },
+    { id: '10', icon: 'settings', label: 'Profile', color: '#E24A4AFF' },
+    { id: '11', icon: 'call', label: 'Akun', color: '#E24A4AFF' },
   ];
 
   const handleNavigation = (label) => {
@@ -38,13 +40,19 @@ const MenuScreen = () => {
         navigation.navigate('Withdraw');
         break;
       case 'Tagihan':
-        navigation.navigate('tarik');
+        navigation.navigate('resi');
         break;
       case 'History Transaksi':
         navigation.navigate('history');
         break;
       case 'Pengaturan':
         navigation.navigate('pengaturan');
+        break;
+      case 'Profile':
+        navigation.navigate('profile');
+        break;
+      case 'Akun':
+        navigation.navigate('akun');
         break;
       default:
         console.warn(`No navigation defined for ${label}`);
@@ -58,7 +66,7 @@ const MenuScreen = () => {
 
         <View style={styles.searchContainer}>
           <TextInput placeholder="Cari" style={styles.searchInput} />
-          <MaterialCommunityIcons name="magnify" color="#A1A0A0" size={20} style={styles.searchIcon} />
+          <MaterialCommunityIcons name="magnify" color="#0482F8FF" size={20} style={styles.searchIcon} />
         </View>
 
         {/* Primary Menu Container */}
