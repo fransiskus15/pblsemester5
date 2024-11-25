@@ -22,7 +22,8 @@ const MenuScreen = () => {
     { id: '8', icon: 'help-circle', label: 'Bantuan', color: '#F5A623' },
     { id: '9', icon: 'settings', label: 'Pengaturan', color: '#4A90E2' },
     { id: '10', icon: 'settings', label: 'Profile', color: '#E24A4AFF' },
-    { id: '11', icon: 'call', label: 'Akun', color: '#E24A4AFF' },
+    { id: '11', icon: 'settings', label: 'Akun', color: '#4AE257FF' },
+
   ];
 
   const handleNavigation = (label) => {
