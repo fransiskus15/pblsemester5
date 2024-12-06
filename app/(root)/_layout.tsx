@@ -94,6 +94,37 @@ const _layout = () => {
       }} />
 
 
+      <Stack.Screen name="bantuan" options={{
+        title: 'Pusat Bantuan',
+        headerShown: true,
+        headerShadowVisible: false,
+        headerTitleAlign: 'center',
+        headerTitleStyle: {
+          fontFamily: 'PoppinsRegular',
+          fontSize: 18
+        },
+        headerStyle: {
+          backgroundColor: '#f3f3f8'
+        },
+
+      }} />
+
+      <Stack.Screen name="kontak" options={{
+        title: 'Kontak',
+        headerShown: true,
+        headerShadowVisible: false,
+        headerTitleAlign: 'center',
+        headerTitleStyle: {
+          fontFamily: 'PoppinsRegular',
+          fontSize: 18
+        },
+        headerStyle: {
+          backgroundColor: '#FFFFFFFF'
+        },
+
+      }} />
+
+
 
     </Stack>
   )

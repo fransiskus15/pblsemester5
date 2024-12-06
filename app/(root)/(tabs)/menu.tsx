@@ -55,6 +55,12 @@ const MenuScreen = () => {
       case 'Akun':
         navigation.navigate('akun');
         break;
+      case 'Bantuan':
+        navigation.navigate('bantuan');
+        break;
+      case 'Kontak':
+        navigation.navigate('kontak');
+        break;
       default:
         console.warn(`No navigation defined for ${label}`);
     }
